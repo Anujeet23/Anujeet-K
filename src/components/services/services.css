@@ -76,7 +76,7 @@
 @media screen and (max-width: 600px) {
     #services{
         height: auto;
-        padding-top: 7rem;
+        padding-top:  9rem;
     }
     .services__container {
         grid-template-columns: 1fr; /* Change to a single column for small screens */

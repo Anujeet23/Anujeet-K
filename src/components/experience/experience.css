@@ -71,6 +71,10 @@
 } */
 /* MEDIA QUERIES(SMALL DEVICES) */
 @media screen and (max-width: 600px) { 
+    #experience{
+        height: auto;
+        padding-top: 9rem;
+    }
     .experience__container {
         display: flex;
         flex-direction: column; 
