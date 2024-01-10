@@ -66,9 +66,20 @@
 }
 
 /* MEDIA QUERIES(SMALL DEVICES) */
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     .services__container {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+} */
+/* MEDIA QUERIES(SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+    #services{
+        height: auto;
+        padding-top: 7rem;
+    }
+    .services__container {
+        grid-template-columns: 1fr; /* Change to a single column for small screens */
         gap: 1.5rem;
     }
 }

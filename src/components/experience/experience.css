@@ -59,7 +59,7 @@
 }
 
 /* MEDIA QUERIES(SMALL DEVICES) */
-@media screen and (max-width: 600px){ 
+/* @media screen and (max-width: 600px){ 
     .experience__container {
         gap: 1rem;
     }
@@ -68,5 +68,20 @@
         width: 100%;
         padding: 2rem 1rem;
     }
+} */
+/* MEDIA QUERIES(SMALL DEVICES) */
+@media screen and (max-width: 600px) { 
+    .experience__container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;   
+    }
+
+    .experience__container > div {
+        width: 100%;  
+        padding: 2rem 1rem;
+        margin-bottom: 2rem; 
+    }
 }
+
 

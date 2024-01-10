@@ -22,7 +22,7 @@ const About = () => {
               <article className="about__card">
                   <FaAward className='about__icon'/>
                   <h5>Experience</h5>
-                  <small>1+ Years</small>
+                  <small>Less than 1 Year</small>
               </article>
               {/* <article className="about__card">
                   <FiUsers className='about__icon'/>
@@ -36,7 +36,7 @@ const About = () => {
               </article>
             </div>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quod numquam maxime a dolorem accusamus corrupti. Delectus vitae veritatis cum molestiae explicabo voluptatum fugit, cupiditate labore mollitia, animi tempora doloremque.</p>
+            <p>👋 Hi, I'm Anujeet Kunturkar, a Java enthusiast thriving in the realm of LeetCode problem-solving. 💻 With a robust background in frontend technologies, I seamlessly blend design and development expertise to create captivating user experiences. 🎨 Intrigued by machine learning 🤖, I infuse innovative solutions with algorithmic precision. Explore my journey in code for a delightful fusion of creativity and technical excellence! ✨</p>
               
               <a href="#contact" className="btn btn-primary">Let's Talk</a>
             
